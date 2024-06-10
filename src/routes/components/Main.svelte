@@ -42,6 +42,8 @@
         <h1>Content 1</h1>
         <h1>Content 1</h1>
         <h1>Content 1</h1>
+        <h1>Content 1</h1>
+        <h1>Content 1</h1>
       </div>
       <div class="justify-center w-full h-[470px] rounded">
         <div class="flex justify-center p-2">
