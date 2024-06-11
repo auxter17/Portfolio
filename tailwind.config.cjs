@@ -1,8 +1,9 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+const defaultConfig = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {}
 	},
 	plugins: []
 };
+
+module.exports = defaultConfig;

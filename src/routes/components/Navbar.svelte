@@ -18,8 +18,10 @@
 <nav>
 	<ul>
 		{#each navLinks as link}
-			<li class="my-auto" on:click={() => navigate(link.url)}>
-				<a class="text-lg">{link.name}</a>
+			<li class="my-auto">
+				<a class="text-lg" href={link.url} on:click|preventDefault={() => navigate(link.url)}>
+					{link.name}
+				</a>
 			</li>
 		{/each}
 	</ul>
